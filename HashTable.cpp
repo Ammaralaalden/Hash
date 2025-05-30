@@ -1,5 +1,6 @@
 // HashTable.cpp
 #include "HashTable.h"
+#include <functional>
 #include <stdexcept>
 
 HashTable::HashTable(size_t size) noexcept : _capacity(size), _filled(0)
